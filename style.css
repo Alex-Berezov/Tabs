@@ -1,0 +1,41 @@
+.wrapper {
+	width: 60vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.tabs_btns ul {
+	display: flex;
+}
+
+.tabs_btns ul li {
+	list-style: none;
+	margin-right: 40px;
+	cursor: pointer;
+}
+
+.tabs_btns ul .selected {
+	border-bottom: 1px solid red;
+}
+
+.tabs_content {
+	margin-top: 30px;
+}
+
+.tabs_content .content {
+	display: none;
+	flex-wrap: wrap;
+}
+
+.tabs_content .content img {
+	width: calc(33% - 10px);
+	margin-bottom: 10px;
+	padding: 0 5px;
+	flex-grow: 1;
+}
+
+.tabs_content .visible {
+	display: flex;
+}
